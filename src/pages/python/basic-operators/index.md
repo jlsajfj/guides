@@ -46,6 +46,9 @@ Consider the expression, <b>“a = 2 + 3”</b>. Here, `2` and `3` are the <i>op
     <td align="center">/</td>
     <td>Performs Division on the operands. <br>Divides the left operand by the right operand</td> 
     <td>12 / 3 = 4</td>
+    <td>Note: When two integers are used, the result differs between Python 2 and Python 3.</td> 
+    <td>5 / 2 = 2 in Python 2</td>
+    <td>5 / 2 = 2.5 in Python 3</td>
   </tr>
   <tr>
     <td align="center">%</td>
