@@ -9,11 +9,13 @@ Let _F_ be a real valued function which is a composite of two functions _f_ and 
 Let the derivative D{F(x)} is denoted as F'(x).
 
 By Chain Rule, 
-#### _`F'(x) = f'(g(x)).g'(x)`_
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=F'(x)=f'(g(x))\cdot&space;g'(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F'(x)=f'(g(x))\cdot&space;g'(x)" title="F'(x)=f'(g(x))\cdot&space;g'(x)" /></a>
 
 Suppose, g(x) = t then F(x) = f(g(x)) can be rewritten as F(x)=f(t)
 then in Leibniz's notation Chain Rule can be rewritten as : 
-#### `d(F)/dx = df/dt . dt/dx`
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{d(F)}{dx}=\frac{df}{dt}\cdot&space;\frac{dt}{dx}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{d(F)}{dx}=\frac{df}{dt}\cdot&space;\frac{dt}{dx}" title="\frac{d(F)}{dx}=\frac{df}{dt}\cdot \frac{dt}{dx}" /></a>
 
 
 
@@ -21,21 +23,21 @@ then in Leibniz's notation Chain Rule can be rewritten as :
 
 Solution : The function can be visualized as a composite of two functions. F(x)= f(g(x))
 
-t= g(x)= ax+b  and f(t)=sin(t)
+<a href="https://www.codecogs.com/eqnedit.php?latex=t=g(x)=ax&plus;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t=g(x)=ax&plus;b" title="t=g(x)=ax+b" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=f(t)=sin(t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(t)=sin(t)" title="f(t)=sin(t)" /></a>
 
-f(t)=sin(t) => df/dt = cos(t)
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{df}{dt}=cos(t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{df}{dt}=cos(t)" title="\frac{df}{dt}=cos(t)" /></a>
 
-t= g(x) = ax+b => dt/dx = a
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{dt}{dx}=a" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{dt}{dx}=a" title="\frac{dt}{dx}=a" /></a>
 
 Now by Chain Rule: 
 
-d(F)/dx = df/dt . dt/dx
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{d(F)}{dx}=\frac{df}{dt}\cdot\frac{dt}{dx}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{d(F)}{dx}=\frac{df}{dt}\cdot\frac{dt}{dx}" title="\frac{d(F)}{dx}=\frac{df}{dt}\cdot\frac{dt}{dx}" /></a>
 
-=> d(F)/dx = a . cost(t) = a.cos(ax+b)
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{d(F)}{dx}=a\cdot&space;cost(t)=a\cdot&space;cos(ax&plus;b)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{d(F)}{dx}=a\cdot&space;cost(t)=a\cdot&space;cos(ax&plus;b)" title="\frac{d(F)}{dx}=a\cdot cost(t)=a\cdot cos(ax+b)" /></a>
 
 OR 
 
-We can directly apply the formula F'(x) = f'(g(x)).g'(x) = cos(ax+b) . a
+We can directly apply the formula <img src="https://latex.codecogs.com/gif.latex?F'(x)=f'(g(x))\cdot&space;g'(x)=cos(ax&plus;b)\cdot&space;a" title="F'(x)=f'(g(x))\cdot g'(x)=cos(ax+b)\cdot a" />
 
 
 ## For a function composite of more than two function :
